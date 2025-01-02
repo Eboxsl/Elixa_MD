@@ -5,8 +5,10 @@
 
 **A modern and powerful WhatsApp bot built with Node.js**  
 
-![GitHub Stars](https://img.shields.io/github/stars/Eboxsl/Elixa_MD?style=for-the-badge)  
-![GitHub Forks](https://img.shields.io/github/forks/Eboxsl/Elixa_MD?style=for-the-badge)
+<div align="center">
+  <img src="https://img.shields.io/github/stars/Eboxsl/Elixa_MD?style=for-the-badge" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/Eboxsl/Elixa_MD?style=for-the-badge" alt="GitHub Forks">
+</div>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
