@@ -5,13 +5,13 @@
 
 **A modern and powerful WhatsApp bot built with Node.js**  
 
-![GitHub Stars](https://img.shields.io/github.com/Eboxsl/Elixa_MD?style=for-the-badge)  
-![GitHub Forks](https://img.shields.io/github/fork/Eboxsl/Elixa_MD?style=for-the-badge)  
- 
+![GitHub Stars](https://img.shields.io/github/stars/Eboxsl/Elixa_MD?style=for-the-badge)  
+![GitHub Forks](https://img.shields.io/github/forks/Eboxsl/Elixa_MD?style=for-the-badge)
 
 ---
 
 ## 🚀 **Features**
+- 💖**Over 100 commands**: You can in stall plugis you want.
 - 🤖 **Automated Replies**: Answer queries and provide information instantly.
 - 📥 **Media Handling**: Download and process images, videos, and documents.
 - 🎨 **Customizable Commands**: Easily add or modify bot commands.
