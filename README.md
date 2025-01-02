@@ -1,4 +1,8 @@
-# 📱 **Elixa-MD**  
+# **𝗘ꟾ𝖎✘𝗮 ‐𝝡𝗗༺**  
+
+
+<img src="https://raw.githubusercontent.com/Eboxsl/ELAUTO/refs/heads/main/ELIXA%20MD%20(2).gif" alt="Elix-MD Preview" style="border-radius: 15px; max-width: 100%; height: auto;">
+
 **A modern and powerful WhatsApp bot built with Node.js**  
 
 ![GitHub Stars](https://img.shields.io/github/stars/yourusername/Elix-MD?style=for-the-badge)  
