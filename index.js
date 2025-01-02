@@ -21,6 +21,46 @@ const prefix = '.';
 
 const ownerNumber = ['94766428832'];
 
+
+const { execSync } = require('child_process');
+
+const path = require('path');
+
+const mainFolder = path.join(__dirname, 'main');
+
+if (!fs.existsSync(mainFolder)) {
+  fs.mkdirSync(mainFolder);
+  execSync('git clone https://github.com/Cyber-E2025/Mage-botaE update');
+  ['plugins', 'Elixa'].forEach((folder) => {
+    const source = path.join(__dirname, 'update', folder);
+    const dest = path.join(mainFolder, folder);
+    if (fs.existsSync(source) && fs.lstatSync(source).isDirectory()) {
+      fs.renameSync(source, dest);
+    }
+  });
+  fs.rmSync(path.join(__dirname, 'update'), { recursive: true, force: true });
+} else {
+  fs.readdirSync(mainFolder).forEach((file) => {
+    const filePath = path.join(mainFolder, file);
+    if (fs.lstatSync(filePath).isDirectory()) {
+      fs.rmSync(filePath, { recursive: true, force: true });
+    } else {
+      fs.unlinkSync(filePath);
+    }
+  });
+  execSync('git clone https://github.com/Cyber-E2025/Mage-botaE update');
+  ['lib', 'plugins', 'Elixa'].forEach((folder) => {
+    const source = path.join(__dirname, 'update', folder);
+    const dest = path.join(mainFolder, folder);
+    if (fs.existsSync(source) && fs.lstatSync(source).isDirectory()) {
+      fs.renameSync(source, dest);
+    }
+  });
+  fs.rmSync(path.join(__dirname, 'update'), { recursive: true, force: true });
+}
+
+
+
 //╭─────────────────────Seson Auth──────────────────────╮//
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
     if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!');
