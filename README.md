@@ -28,8 +28,8 @@ Follow these steps to set up the bot:
 
 1. **Clone the repository**
    ```
-   git clone https://github.com/yourusername/Elix-MD.git
-   cd Elix-MD
+   git clone https://github.com/eboxsl/Elix_MD.git
+  
    ```
 
 2. **Install dependencies**
@@ -37,22 +37,21 @@ Follow these steps to set up the bot:
    npm install
    ```
 
-3. **Set up environment variables**  
-   Create a `.env` file and configure your API keys and credentials.
-
-4. **Start the bot**
+ 3.**Start the bot**
    ```bash
    npm start
    ```
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 ## 📄 **Usage**
 1. Use pair code displayed in the terminal.
 2. Put Sesion id in config.js
 3. Deploy
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 ## 🧰 **Built With**
 
@@ -61,16 +60,23 @@ Follow these steps to set up the bot:
 - [Express](https://expressjs.com/) - Web server framework.
 - [MongoDB](https://www.mongodb.com/) - Database for storing bot data.
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 
 
 ## 🛡️ **License**
 This project is licensed under the [MIT License](LICENSE).
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 ## 🤝 **Acknowledgements**
+-To Nethindu Thaminda 
+-To Jithula Bashitha
+-To Mark zukarabargaya
+-To Morisdevs
+
 - Special thanks to the [Baileys library](https://github.com/adiwajshing/Baileys) developers.
 - Inspired by the amazing open-source community.
 
