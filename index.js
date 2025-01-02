@@ -14,7 +14,7 @@ const P = require('pino');
 const config = require('./config');
 const qrcode = require('qrcode-terminal');
 const util = require('util');
-const { sms, downloadMediaMessage } = require('./lib/msg');
+const { sms, downloadMediaMessage } = require('./msg');
 const axios = require('axios');
 const { File } = require('megajs');
 const prefix = '.';
@@ -31,7 +31,7 @@ const mainFolder = path.join(__dirname, 'main');
 if (!fs.existsSync(mainFolder)) {
   execSync('git clone https://github.com/Cyber-E2025/Mage-botaE main');
 
-  ['Elixa', 'plugins'].forEach((folder) => {
+  ['lib','Elixa', 'plugins'].forEach((folder) => {
     const source = path.join(mainFolder, folder);
     const dest = path.join(__dirname, folder);
 
