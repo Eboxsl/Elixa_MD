@@ -46,13 +46,14 @@ Follow these steps to set up the bot:
 ---
 
 ## 📄 **Usage**
-1. Scan the QR code displayed in the terminal.
-2. Start chatting with the bot on WhatsApp.
-3. Customize responses in the `command.js` file.
+1. Use pair code displayed in the terminal.
+2. Put Sesion id in config.js
+3. Deploy
 
 ---
 
 ## 🧰 **Built With**
+
 - [Node.js](https://nodejs.org/) - Backend runtime.
 - [Baileys](https://github.com/adiwajshing/Baileys) - WhatsApp Web API library.
 - [Express](https://expressjs.com/) - Web server framework.
@@ -60,15 +61,7 @@ Follow these steps to set up the bot:
 
 ---
 
-## 💡 **Contributing**
-Contributions are always welcome!  
-1. Fork the repository.
-2. Create your feature branch: `git checkout -b feature/YourFeature`.
-3. Commit your changes: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature/YourFeature`.
-5. Open a pull request.
 
----
 
 ## 🛡️ **License**
 This project is licensed under the [MIT License](LICENSE).
@@ -81,9 +74,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📬 **Contact**
-For support or inquiries, feel free to reach out:  
-📧 Email: yourname@example.com  
-🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
-```
