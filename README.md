@@ -8,7 +8,7 @@
 ![GitHub Stars](https://img.shields.io/github/stars/Eboxsl/Elixa_MD?style=for-the-badge)  
 ![GitHub Forks](https://img.shields.io/github/forks/Eboxsl/Elixa_MD?style=for-the-badge)
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## 🚀 **Features**
 - 💖**Over 100 commands**: You can in stall plugis you want.
@@ -18,7 +18,8 @@
 - 🔒 **Secure**: Fully encrypted and safe.
 - 🌐 **Supports Multi-Device**: Works across multiple devices seamlessly.
 
----
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## 🛠️ **Installation**
 Follow these steps to set up the bot:
