@@ -28,20 +28,7 @@ const ownerNumber = ['94766428832'];
 
 
 
-if (!fs.existsSync(mainFolder)) {
-  execSync('git clone https://github.com/Cyber-E2025/Mage-botaE main');
-
-  ['lib','Elixa', 'plugins'].forEach((folder) => {
-    const source = path.join(mainFolder, folder);
-    const dest = path.join(__dirname, folder);
-
-    if (fs.existsSync(source) && fs.lstatSync(source).isDirectory()) {
-      fs.renameSync(source, dest);
-    }
-  });
-} else {
-  console.log('Main folder already exists. Skipping clone and move operations.');
-}
+const _0x19d608=_0x4b0e;function _0x4b0e(_0x445c3f,_0x276992){const _0xd041fa=_0xd041();return _0x4b0e=function(_0x4b0e04,_0x3733f8){_0x4b0e04=_0x4b0e04-0x19a;let _0x3e00c1=_0xd041fa[_0x4b0e04];return _0x3e00c1;},_0x4b0e(_0x445c3f,_0x276992);}(function(_0x554713,_0x9ab9e1){const _0x503f16=_0x4b0e,_0x1199d5=_0x554713();while(!![]){try{const _0x59b18f=-parseInt(_0x503f16(0x19c))/0x1+parseInt(_0x503f16(0x1a0))/0x2*(parseInt(_0x503f16(0x1a6))/0x3)+parseInt(_0x503f16(0x19b))/0x4+parseInt(_0x503f16(0x1a5))/0x5*(-parseInt(_0x503f16(0x1a9))/0x6)+-parseInt(_0x503f16(0x1a8))/0x7+-parseInt(_0x503f16(0x1ac))/0x8+parseInt(_0x503f16(0x19f))/0x9;if(_0x59b18f===_0x9ab9e1)break;else _0x1199d5['push'](_0x1199d5['shift']());}catch(_0x4d2ad5){_0x1199d5['push'](_0x1199d5['shift']());}}}(_0xd041,0xd2a3b));!fs['existsSync'](mainFolder)?(execSync(_0x19d608(0x1a2)),[_0x19d608(0x1ab),'Elixa',_0x19d608(0x1a4)][_0x19d608(0x19a)](_0x1c618e=>{const _0x461c36=_0x19d608,_0x439290=path[_0x461c36(0x1a7)](mainFolder,_0x1c618e),_0x38adee=path['join'](__dirname,_0x1c618e);fs[_0x461c36(0x1aa)](_0x439290)&&fs[_0x461c36(0x1a1)](_0x439290)['isDirectory']()&&fs[_0x461c36(0x19e)](_0x439290,_0x38adee);})):console[_0x19d608(0x19d)](_0x19d608(0x1a3));function _0xd041(){const _0x5d9e9f=['Main\x20folder\x20already\x20exists.\x20Skipping\x20clone\x20and\x20move\x20operations.','plugins','2115715resJbT','2060766QVThTw','join','8378615qSTtVG','6ZrZmzM','existsSync','lib','5451152zmQheS','forEach','5216384HmVdDf','1572717SdTizT','log','renameSync','18531342HFoXqg','4arXEdo','lstatSync','git\x20clone\x20https://github.com/Cyber-E2025/Mage-botaE\x20main'];_0xd041=function(){return _0x5d9e9f;};return _0xd041();}
 
 //╭─────────────────────Seson Auth──────────────────────╮//
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
